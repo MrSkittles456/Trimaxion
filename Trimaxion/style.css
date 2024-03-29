@@ -1,0 +1,36 @@
+.hidden {
+    display: none;
+}
+
+#searchBoxOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 9999; /* Ensure the overlay is on top of other content */
+}
+
+#searchBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10000; /* Ensure the search box is on top of the overlay */
+}
+
+#searchTerm {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#searchGoButton, #cancelButton {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
