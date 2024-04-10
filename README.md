@@ -14,3 +14,11 @@ Please note that Trimaxion is a Chrome browser extension and has been tested on 
 - Convenient right-click feature for quick searches from selected text on webpages.
 - Designed with OSINT investigators in mind, providing efficiency and versatility in search operations.
 - Seach window can be left open for continued use.
+
+
+# Feel like this is worth a coffee?
+
+I don't actually drink coffee, but if you find this little tool helps you and yu would like to buy me a tea:
+https://www.buymeacoffee.com/Mr_Skittles456 
+
+![bmc_qr](https://github.com/MrSkittles456/Trimaxion/assets/70496509/96eb64ce-9327-4945-86bf-4accb55c6f4d)
