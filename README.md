@@ -23,7 +23,7 @@ Please note that Trimaxion is a Chrome browser extension and has been tested on 
 
 # Feel like this is worth a coffee?
 
-I don't actually drink coffee, but if you find this little tool helps you and you would like to dontae to my caffeine addication and buy me a tea:
+I don't actually drink coffee, but if you find this little tool helps you and you would like to donate to my caffeine addiction and buy me a tea:
 https://www.buymeacoffee.com/Mr_Skittles456 
 
 
