@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Search Box</title>
+    <title>Trimaxion</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="searchBox" class="centered">
+    <div id="Trimaxion" class="centered">
         <input type="text" id="searchTerm" placeholder="Enter search term">
-        <button id="searchGoButton">Go</button>
-        <button id="cancelButton">Cancel</button>
-    </div>
-    <script src="search.js"></script>
+        <button id="searchGoButton" data-action="general">Go</button>
+        <button id="searchLastButton" data-action="last7">Last 7 Days</button>
+        <button id="translateButton">Translate</button>
+    <div id="overlay"></div>
+        <script src="./scripts/search.js"></script>
+        <script src="./scripts/search_week.js"></script>
+        <script src="./scripts/translate.js"></script>
 </body>
 </html>
+

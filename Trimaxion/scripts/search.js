@@ -1,4 +1,4 @@
-// Add a context menu item to send selected text to the extension search box
+
 chrome.contextMenus.create({
     title: "Search '%s' with Trimaxion",
     contexts:["selection"],
@@ -9,17 +9,17 @@ chrome.contextMenus.create({
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('searchGoButton').addEventListener('click', performSearch);
+    document.getElementById('searchGoButton').addEventListener('click', performGeneralSearch);
     document.getElementById('searchTerm').addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
-            performSearch();
+            performGeneralSearch();
         }
     });
-    document.getElementById('cancelButton').addEventListener('click', closeWindow);
 });
 
-// Function to perform the search on Bing, DuckDuckGo, Google, and searx
-function performSearch() {
+
+
+function performGeneralSearch() {
     let searchTerm = document.getElementById('searchTerm').value.trim();
     if (searchTerm) {
         chrome.tabs.create({ url: 'https://www.bing.com/search?q=' + encodeURIComponent(searchTerm) });
@@ -32,5 +32,7 @@ function performSearch() {
 }
 
 function closeWindow() {
-    window.close(); // Close the pop-up window
+    window.close(); 
 }
+
+

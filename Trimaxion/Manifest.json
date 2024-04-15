@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Search Box Extension - Testing",
+  "name": "Trimaxion",
   "version": "1.0",
   "permissions": [
     "activeTab",
