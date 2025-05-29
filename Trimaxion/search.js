@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
 function performSearch() {
     let searchTerm = document.getElementById('searchTerm').value.trim();
     if (searchTerm) {
-        chrome.tabs.create({ url: 'https://www.bing.com/search?q=' + encodeURIComponent(searchTerm) });
-        chrome.tabs.create({ url: 'https://duckduckgo.com/?q=' + encodeURIComponent(searchTerm) });
-        chrome.tabs.create({ url: 'https://www.google.com/search?q=' + encodeURIComponent(searchTerm) });
-        chrome.tabs.create({ url: 'https://www.qwant.com/?q=' + encodeURIComponent(searchTerm) });
-        chrome.tabs.create({ url: 'https://search.brave.com/search?q=' + encodeURIComponent(searchTerm) });
+        chrome.tabs.create({ url: 'https://www.bing.com/search?q=%&udm=14' + encodeURIComponent(searchTerm) });
+        chrome.tabs.create({ url: 'https://duckduckgo.com/?q=%&udm=14' + encodeURIComponent(searchTerm) });
+        chrome.tabs.create({ url: 'https://www.google.com/search?q=%&udm=14' + encodeURIComponent(searchTerm) });
+        chrome.tabs.create({ url: 'https://www.startpage.com/search?q=%&udm=14' + encodeURIComponent(searchTerm) });
+        chrome.tabs.create({ url: 'https://search.brave.com/search?q=%&udm=14' + encodeURIComponent(searchTerm) });
         
     }
 }
